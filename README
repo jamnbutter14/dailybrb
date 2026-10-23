@@ -1,0 +1,18 @@
+# Daily Brand Reputation Boost
+
+Runs every day at 7AM Ho Chi Minh time (set in .github/workflows/daily.yml).
+
+Secrets to add in GitHub (Settings > Secrets and variables > Actions):
+
+| Name | What it is |
+|---|---|
+| GOOGLE_SERVICE_ACCOUNT_JSON | The whole text of the JSON key file from Google Cloud |
+| DRIVE_FOLDER_ID | The ID at the end of your Photo Pool folder's link |
+| SHEET_ID | The ID in your fancam Google Sheet's link |
+| X_API_KEY / X_API_SECRET | From the X developer portal |
+| X_ACCESS_TOKEN / X_ACCESS_TOKEN_SECRET | From the X developer portal (generate AFTER setting Read and Write) |
+| X_USERNAME | Your X handle without @ (optional, makes the link prettier) |
+| FB_PAGE_ID / FB_PAGE_TOKEN | Your Facebook Page ID and long-lived Page token |
+| TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID | For the message you paste into the Facebook Group |
+
+Google Sheet columns: A = Date (like 2026-10-24), B = Fancam 1 link, C = Fancam 2 link.
