@@ -1,0 +1,7 @@
+pillow
+numpy
+opencv-python-headless
+requests
+requests-oauthlib
+google-api-python-client
+google-auth
